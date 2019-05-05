@@ -4,6 +4,6 @@ return array.join(" and ")
 
 elsif array.length > 2
   last =  'and #{array.pop}'
-  return array.join(", ")
+  return array.join(", ") + last
 end
 end
