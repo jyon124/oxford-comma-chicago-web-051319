@@ -1,4 +1,4 @@
 def oxford_comma(array)
-New_array = array.join(", ")
-return New_array
+Joined = array.join(", ")
+return Joined
 end
